@@ -1,2 +1,2 @@
 # photos_travaux
-exploitation des métédonnées de photos pour visualisation webmapping
+exploitation des métadonnées de photos pour visualisation webmapping
