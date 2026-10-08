@@ -1,0 +1,24 @@
+# Fichier de configuration projet — à charger dans l'application.
+# Contient des identifiants : ne pas le commiter, ne pas l'envoyer par mail en clair.
+# Chemins Windows : utiliser des apostrophes simples '...' pour garder les antislashs tels quels.
+
+[projet]
+nom = "Trambus T4"
+numero_etude = "250247"
+referent = "Ludovic Rousseau"
+referent_app = "Mathilde Fabre"
+chemin_photos = '\\sce-nantes\2025\Projets\250247_UP_TRAMBUS-T4\3-Photos'
+
+[cible]
+schema = "ref_photos_infra_t"
+table = "photos_localisees"
+dossier_ftp = "ref_photos_infra_t"          # doit exister sur le serveur
+url_base = "https://dev.datakeran.naomis.fr/upload/"
+
+[postgis]
+url = "postgresql://sigdata:3cP6c2k78qCVeE@51.255.75.2:5432/sigdata_projets_2025_2026"
+
+[ftp]
+host = "176.31.65.248"
+user = "ftpdataksce"
+password = "_61vIF#x4Sm+}q2C"

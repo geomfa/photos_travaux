@@ -1,0 +1,8 @@
+# Configurations projet (contiennent des identifiants)
+*.toml
+!config_exemple.toml
+!.streamlit/config.toml
+
+.env
+__pycache__/
+.venv/

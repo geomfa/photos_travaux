@@ -1,0 +1,8 @@
+streamlit
+geopandas
+shapely
+pandas
+pillow
+sqlalchemy
+psycopg
+geoalchemy2
