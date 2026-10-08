@@ -5,5 +5,5 @@ pandas
 pillow
 sqlalchemy
 psycopg
-psycopg2-binary
+psycopg[binary]
 geoalchemy2

@@ -12,7 +12,7 @@ from shapely.geometry import Point
 from sqlalchemy import create_engine, text, inspect
 from sqlalchemy.exc import SQLAlchemyError
 
-st.set_page_config(page_title="Photos géolocalisées → PostGIS", layout="wide")
+st.set_page_config(page_title="Photos géolocalisées → PostGIS", page_icon="📷", layout="wide")
 
 CRS = "EPSG:4326"
 EXTENSIONS = ["jpg", "jpeg", "tif", "tiff"]
